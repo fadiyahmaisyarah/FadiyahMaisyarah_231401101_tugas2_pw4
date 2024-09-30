@@ -1,0 +1,73 @@
+body {
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.4)
+    ),
+    url("image/background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: Arial, sans-serif;
+  
+}
+
+
+main {
+  padding-top: 60px; 
+}
+
+
+.hero-section {
+  background-color: #b93b13;
+  color: white;
+  padding: 100px;
+}
+form {
+  margin-bottom: 20px;
+}
+
+.container {
+  border-radius: 25px;
+  overflow: hidden;
+}
+
+.main-color {
+  background-color: #b93b13 !important;
+}
+
+/* untuk layar  lebih besar */
+form {
+  width: 50%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/*  untuk layar kecil mobile */
+@media screen and (max-width: 600px) {
+  form {
+    width: 90%;
+    padding: 10px;
+  }
+
+  input[type="email"],
+  input[type="password"] {
+    width: 100%;
+  }
+
+  button {
+    width: 100%;
+  }
+}
+/*bagian romantis*/
+.romantis {
+  background-color: #d99535;
+  /color: white;
+  padding: 10px;
+}
+
+.card {
+  margin-bottom: 20px;
+}
+
+.accordion-item {
+  background-color: #b93b13;
+}
